@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="Styles/style.css">
+    
+</head>
+<body>
+    <div class="main-div">
+        <div class="headerwithmain">
+            <div class="header">
+                <h3>Employee</h3>
+                <h6>Dashboard / Employee</h6>
+            </div>
+            <div class="main">
+                <ion-icon name="apps"></ion-icon>
+                <ion-icon name="menu"></ion-icon>
+                <button id="addEmployee" ><span>+</span>Add Employee</button>
+            </div>
+        </div>
+        <div class="inputs" id="dataform"  > <!--style="display: none;"-->
+            <input type="text" id="employeeid" placeholder="Employee ID">
+            <input type="text" id="employeename" placeholder="Employee Name">
+            <input type="text" id="position" placeholder="Position">
+            <input type="submit" value="submit">
+            
+           <!---- <button class="btn1" type="submit" id="Search-savedata">Search</button> -->
+        </div>
+        
+            <div class="table" id="dataTable">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>EmployeeID</th>
+                            <th>EmployeeName</th>
+                            <th>Position</th>
+    
+                        </tr>
+                    </thead>
+                   
+                    <tbody>
+                    
+                    </tbody>
+                  
+                </table>
+                
+            </div>
+     
+            <script src="table.js"></script>
+    </div>
+    
+</body>
+</html>
